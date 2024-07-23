@@ -96,3 +96,19 @@ document.getElementById('cnt_lnk').addEventListener('click',(event)=>{
     event.preventDefault();
     document.getElementById('contact').scrollIntoView({behavior:'smooth'})
 })
+
+
+document.getElementById('abt_link').addEventListener('click',(event)=>{
+    event.preventDefault();
+    document.getElementById('about_us').scrollIntoView({behavior:'smooth'})
+})
+
+document.getElementById('serv_link').addEventListener('click',(event)=>{
+    event.preventDefault();
+    document.getElementById('service').scrollIntoView({behavior:'smooth'})
+})
+
+document.getElementById('cnt_link').addEventListener('click',(event)=>{
+    event.preventDefault();
+    document.getElementById('contact').scrollIntoView({behavior:'smooth'})
+})
