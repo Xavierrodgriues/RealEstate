@@ -557,3 +557,17 @@ h6,
         margin-bottom: 20px; /* Optional: Add spacing between the boxes */
     }
 }
+.read-more-btn {
+    background-color: #d2a679; /* Light brown color like the logo */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.read-more-btn:hover {
+    background-color: #c1905c; /* Darker shade on hover */
+}
