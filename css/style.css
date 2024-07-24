@@ -571,3 +571,9 @@ h6,
 .read-more-btn:hover {
     background-color: #c1905c; /* Darker shade on hover */
 }
+
+.owl-carousel-item img {
+    width: 100%;
+    height: 600px; /* Adjust the height as needed */
+    object-fit: cover; /* This ensures the image covers the area without stretching */
+}
